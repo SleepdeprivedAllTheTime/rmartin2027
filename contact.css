@@ -50,7 +50,7 @@ body {
 /*Header*/
 
 .jumbotron {
-  background-image: url('../images/contactpic.jpg');
+  background-image: url(contactpic.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
