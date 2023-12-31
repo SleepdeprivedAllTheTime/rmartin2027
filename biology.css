@@ -53,7 +53,7 @@ body {
 /*Header*/
 
 .jumbotron {
-  background-image: url('../images/Courses-banner.jpg');
+  background-image: url(Courses-banner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
