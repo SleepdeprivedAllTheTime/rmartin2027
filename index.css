@@ -72,7 +72,7 @@ hr {
 /*Header*/
   
 #Header{
-  background-image: url("Header.jpg");
+  background-image: url(Header.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 62px;
@@ -364,7 +364,7 @@ marquee{
 /*Banner*/
 
 .imagea{
-  background-image: url("Banner.jpg");
+  background-image: url(Banner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
