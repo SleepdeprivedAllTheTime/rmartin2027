@@ -51,7 +51,7 @@ body {
 /*Header*/
 
 .jumbotron {
-  background-image: url('../images/Courses-banner.jpg');
+  background-image: url(Courses-banner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -139,27 +139,27 @@ h1{
 }
 
 #english{
-  background-image: url('../images/Eng-btn.jpg');
+  background-image: url(Eng-btn.jpg);
 }
 
 #mathematics{
-  background-image: url('../images/Math-btn.jpg');
+  background-image: url(Math-btn.jpg);
 }
 
 #biology{
-  background-image: url('../images/Bio-btn.jpg');
+  background-image: url(Bio-btn.jpg);
 }
 
 #chemistry{
-  background-image: url('../images/Chem-btn.jpg');
+  background-image: url(Chem-btn.jpg);
 }
 
 #physics{
-  background-image: url('../images/Physics-btn.jpg');
+  background-image: url(Physics-btn.jpg);
 }
 
 #computer-science{
-  background-image: url('../images/Comp-btn.png');
+  background-image: url(Comp-btn.png);
 }
 
 .subject-button:hover {
