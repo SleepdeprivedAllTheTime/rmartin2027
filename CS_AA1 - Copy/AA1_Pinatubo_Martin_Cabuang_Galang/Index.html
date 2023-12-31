@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.19.0/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Prata&family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/index.css">
+  <title>Sky High Academy</title>
+</head>
+<body>
+
+  <!--Navigation Bar-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="images/logo.PNG" alt="Logo" style="width: 55%; height: auto;"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="Index.html">HOME</a></li>
+          <li class="nav-item"><a class="nav-link" href="AboutUs.html">ABOUT US</a></li>
+          <li class="nav-item"><a class="nav-link" href="Courses.html">COURSES</a></li>
+          <li class="nav-item"><a class="nav-link" href="ContactUs.html">CONTACTS</a></li>
+          <li class="nav-item"><a class="nav-link" href="Clubs.html">CLUBS</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--Header-->
+  <div id="Header" class="jumbotron jumbotron-fluid">
+    <div class="row">
+      <div class="col-lg-auto">
+        <h1 class="display-6">Welcome to Skye High Academy!</h1>
+        <p class="lead">Where every student can truly reach for the skies!</p>
+        <button type="button" class="apply-btn" onclick="location.href='Courses.html'"><a href="Courses.html">Apply Now!</a></button>
+      </div>
+      <div class="col-sm-auto">
+        <video autoplay muted loop class="d-block" width="320" height="180">
+          <source src="images/CS.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </div>
+
+  <!--Content-->  
+  <div class="container">
+    <div class="margin-top-50">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="latest-news">
+            <div class="heading-section">
+              <h3 class="heading-title">Latest News</h3>
+            </div>
+            <marquee direction="up">
+              <ul class="latest-news-list">
+                <li>16 Feb 2024 Academic Building 4 Opening <img src="images/latest-news-blink-img.gif"></li>
+                <li>31 Mar 2024 Director's listers Part 01 &nbsp<img src="images/latest-news-blink-img.gif"></li>
+                <li>31 Mar 2024 Director's listers Part 02 &nbsp<img src="images/latest-news-blink-img.gif"></li>
+                <li>31 Mar 2024 Director's listers Part 03 &nbsp<img src="images/latest-news-blink-img.gif"></li>
+                <li>15 Mar 2024 4th Qtr Academic Calendar (2023-2024) &nbsp<img src="images/latest-news-blink-img.gif"></li>
+                <li>21 May 2024 Robotics Workshop &nbsp<img src="images/latest-news-blink-img.gif"></li>
+                <li>17 Apr 2024 Batch 2024 Graduation <img src="images/latest-news-blink-img.gif"></li>
+              </ul>
+            </marquee>
+          </div>
+        </div>
+  <!-- Upcoming Events -->
+        <div class="col-lg-4">
+          <div class="events-list">
+            <div class="heading-section">
+              <h3 class="heading-title">Upcoming Events</h3>
+            </div>
+            <ul class="list-group list-group-flush upcoming-events-list">
+              <li class="list-group-item">
+                <span class="event-date"> 13 <br> Feb </span> Seminar is conducted on Engineering Courses.
+              </li>
+              <li class="list-group-item">
+                <span class="event-date"> 30 <br> March </span> Seminar is conducted on Computer Science Courses.
+              </li>
+              <li class="list-group-item">
+                <span class="event-date"> 11 <br> May </span> Seminar regarding the importance of Mental Health
+              </li>
+              <li class="list-group-item">
+                <span class="event-date"> 29 <br> April </span> Quarterly Meeting for Batch 2024 to 2029
+              </li>
+            </ul>
+          </div>
+        </div>     
+  <!-- Teacher & Student of the Month -->
+        <div class="col-lg-4">
+          <div class="acknowledged-persons">
+            <div class="heading-section">
+              <h3 class="heading-title">Teacher & Student of the Month</h3>
+            </div>
+            <div class="acknowledged-teacher">
+              <tr>
+              <div class="image">
+                <img src="images/Comp-teacher.jpg" alt="teacher" class="teacher-image">
+              </div>
+              <div class="teacher-description">
+                <p class="teacher-name">Sir Mark Paolo Cruz</p>
+                <br>
+                <p class="teacher-designation">Computer Teacher</p>
+              </div>
+              </tr>
+            </div>
+            <br><br><br><br>
+            <div class="acknowledged-student">
+              <div class="image">
+                <img src="images/student-img.jpg" alt="student" class="student-image">
+              </div>
+              <div class="student-description">
+                <p class="student-name">Lean Emarel T. Martin</p>
+                <br>
+                <p class="student-designation">Batch 2027</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Banner -->
+<div class="mt-1 imagea">
+  <div class="row">
+    <div class="col-md-3">
+      <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="bi bi-people-fill tabke" viewBox="0 0 16 16">
+        <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"/>
+      </svg>
+      <p class="banner-text"><a href="AboutUs.html">About Us</a></p>
+    </div>
+    <div class="col-md-3">
+      <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="bi bi-mortarboard-fill tabke" viewBox="0 0 16 16">
+        <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5Z"/>
+        <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466z"/>
+      </svg>
+      <p class="banner-text"><a href="Courses.html">Courses</a></p>
+    </div>
+    <div class="col-md-3">
+      <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="bi bi-telephone-fill tabke" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+      </svg>
+      <p class="banner-text"><a href="ContactUs.html">Contact Us</a></p>
+    </div>
+    <div class="col-md-3">
+      <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="bi bi-award-fill tabke" viewBox="0 0 16 16">
+        <path d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864z"/>
+        <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1z"/>
+      </svg>
+      <p class="banner-text"><a href="Clubs.html">Clubs</a></p>
+    </div>    
+  </div>
+</div>
+
+<!--Footer-->
+
+<footer class="text-center">
+  <h4><b>Contact Information</b></h4>
+  <p id="footer-lead">SkyeHigh@gmail.com<br>Phone: 123 456 7890<br>Unicorn Hills, Equestria</p>
+</footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
+
+<!--Scrap Code
+
+<div class="row">
+  <div class="col-md-6">
+    <p>Where every student can truly reach for the skies! Our school is a diverse community dedicated to nurturing academic excellence, social capabilities, and personal growth; preparing individuals for a great and smoothly-flowing college and adult life. Join us on this journey of exploration, innovation, and achievement! From our state-of-the-art facilities to a comprehensive curriculum that integrates traditional values with modern educational practices, we strive to equip our students with the skills, knowledge, and values necessary to thrive in an ever-evolving world.
+    <br><br>With our core values of yearning for success and knowledge, embracing the ideology of being yes-minded, and for our students to have incredible expertise, we ought to lead our students to greatness; that is, to exceed beyond their limits and achieve the impossible.
+    <br><br>Explore our website to discover more about our programs, extracurricular activities, and the supportive community that defines Skye High. Be sure to look out for future enrollments and events!</p>
+  </div>
+
